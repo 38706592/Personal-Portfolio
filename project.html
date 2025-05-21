@@ -45,10 +45,10 @@
                 <div class="arrow-down"></div>
             </div>
         </div>
-        <!-- 背景視頻 (改用YouTube嵌入) -->
-        <div class="hero-background-video">
-            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/您的视频ID?autoplay=1&mute=1&loop=1&playlist=您的视频ID&controls=0&showinfo=0" title="Background Video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div>
+        <!-- 添加背景視頻 -->
+        <video id="bg-video" autoplay loop muted playsinline preload="auto" poster="images/project/分裂邊緣_遊戲截圖-03.png" class="hero-background-video">
+            <source src="videos/project/分裂邊緣_背景影片.mp4" type="video/mp4">
+        </video>
     </div>
 
     <!-- 專題內容展示 -->
@@ -85,9 +85,10 @@
             <div class="trailer-section">
                 <h2 class="section-title glitch-text">遊戲預告片</h2>
                 <div class="trailer-container" data-aos="fade-up">
-                    <div class="youtube-embed">
-                        <iframe width="100%" height="500" src="https://www.youtube.com/embed/您的视频ID" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                    </div>
+                    <video width="100%" height="auto" controls preload="metadata" poster="videos/project/分裂邊緣_完整預告片.png">
+                        <source src="videos/project/分裂邊緣_完整預告片.mp4" type="video/mp4">
+                        您的瀏覽器不支援影片播放。
+                    </video>
                 </div>
             </div>
             
