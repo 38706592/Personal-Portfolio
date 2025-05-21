@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>張紘偉作品集 - Unreal Engine</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.5/css/lightbox.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/ScrollTrigger.min.js"></script>
+</head>
+<body class="unreal-page">
+    <!-- 導航欄 -->
+    <header>
+        <div class="logo">
+            <a href="index.html">
+                <img src="images/logo.png" alt="Logo">
+                <span class="logo-text">作品集</span>
+            </a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">關於我</a></li>
+                <li class="active"><a href="unreal.html">Unreal Engine</a></li>
+                <li><a href="ae.html">AE影片</a></li>
+                <li><a href="fashion.html">服裝設計</a></li>
+                <li><a href="3dprint.html">3D列印</a></li>
+                <li><a href="project.html">專題</a></li>
+            </ul>
+        </nav>
+        <!-- 漢堡選單按鈕 (手機版) -->
+        <div class="menu-toggle">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </header>
+    
+    <!-- 導航欄底部紅線 -->
+    <div class="red-line-decoration"></div>
+
+    <!-- 主視覺區域 -->
+    <div class="hero unreal-hero">
+        <div class="hero-content">
+            <h1 class="title-top">Unreal</h1>
+            <h1 class="title-bottom">Engine</h1>
+            <div class="scroll-indicator">
+                <span>向下滾動查看作品</span>
+                <div class="arrow-down"></div>
+            </div>
+        </div>
+        <!-- 背景視頻 (靜音自動播放) -->
+        <video id="bg-video" autoplay loop muted playsinline preload="auto" poster="videos/unreal/海邊礁石.png" class="hero-background-video">
+            <source src="videos/unreal/海邊礁石.mp4" type="video/mp4">
+        </video>
+    </div>
+
+    <!-- Unreal Engine 作品展示 -->
+    <section class="unreal-content">
+        <div class="container">
+            <h2 class="section-title glitch-text">虛擬場景作品</h2>
+            <div class="unreal-gallery">
+                <div class="gallery-item" data-aos="fade-up">
+                    <div class="video-wrapper">
+                        <video width="100%" height="auto" controls preload="metadata" poster="videos/unreal/汽車渲染.png">
+                            <source src="videos/unreal/汽車渲染.mp4" type="video/mp4">
+                            您的瀏覽器不支援影片播放。
+                        </video>
+                        <div class="video-title">汽車渲染</div>
+                        <div class="play-button"><i class="fas fa-play"></i></div>
+                    </div>
+                </div>
+                
+                <div class="gallery-item" data-aos="fade-up" data-aos-delay="100">
+                    <div class="video-wrapper">
+                        <video width="100%" height="auto" controls preload="metadata" poster="videos/unreal/叢林.png">
+                            <source src="videos/unreal/叢林.mp4" type="video/mp4">
+                            您的瀏覽器不支援影片播放。
+                        </video>
+                        <div class="video-title">叢林場景</div>
+                        <div class="play-button"><i class="fas fa-play"></i></div>
+                    </div>
+                </div>
+                
+                <div class="gallery-item" data-aos="fade-up" data-aos-delay="200">
+                    <div class="video-wrapper">
+                        <video width="100%" height="auto" controls preload="metadata" poster="videos/unreal/海邊礁石.png">
+                            <source src="videos/unreal/海邊礁石.mp4" type="video/mp4">
+                            您的瀏覽器不支援影片播放。
+                        </video>
+                        <div class="video-title">海邊礁石</div>
+                        <div class="play-button"><i class="fas fa-play"></i></div>
+                    </div>
+                </div>
+                
+                <div class="gallery-item" data-aos="fade-up" data-aos-delay="300">
+                    <div class="video-wrapper">
+                        <video width="100%" height="auto" controls preload="metadata" poster="videos/unreal/沙漠峽谷.png">
+                            <source src="videos/unreal/沙漠峽谷.mp4" type="video/mp4">
+                            您的瀏覽器不支援影片播放。
+                        </video>
+                        <div class="video-title">沙漠峽谷</div>
+                        <div class="play-button"><i class="fas fa-play"></i></div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="section-divider"></div>
+            
+            <h2 class="section-title glitch-text">技術展示</h2>
+            <div class="unreal-tech-demo">
+                <div class="tech-item" data-aos="zoom-in">
+                    <img src="images/unreal/螢幕擷取畫面 2022-12-05 130631.png" alt="Unreal Engine 技術展示">
+                    <div class="tech-info">
+                        <h3>材質與光影技術</h3>
+                        <p>使用Unreal Engine的先進材質系統和光線追蹤技術，創造高度寫實的虛擬場景。通過精確的光源配置和材質調整，實現逼真的表面反射和全域光照效果。</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 頁腳 -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2025 張紘偉 作品集. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- 加入 Font Awesome 圖標支持 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    
+    <!-- 載入JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.5/js/lightbox.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html> 
